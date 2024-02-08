@@ -280,6 +280,11 @@ transform: translateX(-50%);
     grid-column-gap: 40px;
     grid-row-gap: 60px;
 }
+@media (max-width: 767px) {
+    .services .services-container {
+    grid-template-columns: auto;
+    }
+}
 .services .services-container .srv-box {
     display: flex;
 }
